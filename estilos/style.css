@@ -1,3 +1,36 @@
 @charset "utf-8";
 
 
+main {
+    height: 100vh;
+}
+
+section {
+    width: 60vw;
+    height: 50vh;
+    
+    border-radius: 10px 10px;
+}
+
+#login {
+    background-color: red;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#imagem {
+    float: right;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    width: 23vw;
+    height: 50vh;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#formulario {
+    float: left;
+    text-align: center;
+}
