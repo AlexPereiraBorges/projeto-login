@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-                    /* Tablet */
+/* Tablet */
 
 @media screen and (min-width:768px) and (max-width:992px) {
-    
+
     body {
         background-image: linear-gradient(to top, #F2784B, #F2BB77);
     }
@@ -12,17 +12,17 @@
         width: 80vw;
     }
 
-    section#login > div#imagem {
+    section#login>div#imagem {
         float: left;
         width: 30%;
         height: 100%;
-}
+    }
 
     section#login>div#formulario {
         float: right;
         width: 70%;
         margin-top: 7%;
-}
+    }
 
     form>input[type="submit"] {
         margin: auto;
@@ -30,84 +30,86 @@
         font-size: 1.2em;
         background-color: #F2784b;
         color: #F2BB77;
-}
+    }
 
 
     form>input[type="submit"]:hover {
         background-color: #F2BB77;
         color: #F2784B;
         cursor: pointer;
+    }
+
+    #email {
+        color: #F2bb77;
+        text-decoration: none;
+        float: right;
+        margin: 2px;
+        width: 37px;
+    }
+
+    #email>a {
+        text-decoration: none;
+        color: #F2784b;
+    }
+
 }
 
-#email {
-    color: #F2bb77;
-    text-decoration: none;
-    float: right;
-    margin: 2px;
-    width: 37px;
-}
-
-#email>a {
-    text-decoration: none;
-    color: #F2784b;
-}
-
-}
-                    /* Desktop */
+/* Desktop */
 @media screen and (min-width: 992px) {
     body {
-    background-image: linear-gradient(to top, #F2784B, #F2BB77);
-}
-
-
-section#login {
-    width: 950px;
-    }
-section#login > div#imagem {
-    float: right;
-    width: 50%;
-    height: 100%;
+        background-image: linear-gradient(to top, #F2784B, #F2BB77);
     }
 
-section#login > div#formulario {
-    float: left;
-    width: 50%;
-}
 
-div#formulario>h1 {
-    font-size: 4.5em;
-    padding: 10px;
-}
+    section#login {
+        width: 950px;
+    }
 
-div#formulario>p {
-    font-size: 1.2em;
-    padding: 10px;
-}
+    section#login>div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login>div#formulario {
+        float: left;
+        width: 50%;
+    }
+
+    div#formulario>h1 {
+        font-size: 4.5em;
+        padding: 10px;
+    }
+
+    div#formulario>p {
+        font-size: 1.2em;
+        padding: 10px;
+    }
 
     form>input[type="submit"] {
-    margin: auto;
-    margin-top: 65px;
-    font-size: 1.5em;
-    background-color: #F2784b;
-    color: #F2BB77;
-}
-    
-form>input[type="submit"]:hover {
-    background-color: #F2BB77;
-    color: #F2784B;
-    cursor: pointer;
-}
+        margin: auto;
+        margin-top: 65px;
+        font-size: 1.5em;
+        background-color: #F2784b;
+        color: #F2BB77;
+    }
 
-#email {
-    color: #F2bb77;
-    text-decoration: none;
-    float: right;
-    margin: 2px;
-    width: 37px;
-}
+    form>input[type="submit"]:hover {
+        background-color: #F2BB77;
+        color: #F2784B;
+        cursor: pointer;
+    }
 
-#email>a {
-    text-decoration: none;
-    color: #F2784b;
-}
+    #email {
+        color: #F2bb77;
+        text-decoration: none;
+        float: right;
+        margin: 2px;
+        width: 37px;
+    }
+
+    #email>a {
+        text-decoration: none;
+        color: #F2784b;
+    }
 }
