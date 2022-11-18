@@ -24,6 +24,16 @@
         margin-top: 7%;
     }
 
+    div#formulario>h1 {
+        font-size: 4.5em;
+        padding: 15px;
+    }
+        
+    div#formulario>p {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
     form>input[type="submit"] {
         margin: auto;
         margin-top: 65px;
