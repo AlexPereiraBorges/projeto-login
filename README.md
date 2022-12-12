@@ -11,12 +11,7 @@ Site em mobile:
   
 ![tablet](https://user-images.githubusercontent.com/113382219/202854527-36d3e096-8585-4372-be41-377da3c33151.png)
 
- <img  src="">
- Tela de login responsiva usando mobile first. 
-<div align="center"> 
-  <img scr="https://user-images.githubusercontent.com/113382219/202854527-36d3e096-8585-4372-be41-377da3c33151.png
-"/>
-<div/>
+ 
   
   Site em desktop:
   
